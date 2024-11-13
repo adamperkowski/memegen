@@ -5,7 +5,7 @@ A POSIX shell script to generate memes from the commandline using ImageMagick
 ## Requirements
 
 - ImageMagick installed
-- Impact font installed properly. Check: `convert -list font | grep Impact`
+- Impact font installed properly. Check: `magick -list font | grep Impact`
 
 ## Usage
 

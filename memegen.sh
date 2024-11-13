@@ -76,7 +76,7 @@ width=$(identify -format %w "${src}")
 caption_height=$((width/6))
 stroke_width=$((width/400 > 1 ? width/400 : 1))
 
-convert "$src" \
+magick "$src" \
   -background none \
   -font "$font" \
   -fill white \
